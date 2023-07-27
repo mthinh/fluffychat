@@ -28,7 +28,7 @@ prime
 
 # Flutter/Dart/Pub related
 **/doc/api/
-.dart_tool/
+.dart_tool/*
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
@@ -43,7 +43,7 @@ docs/_site/
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
-
+!.dart_tool/flutter_gen
 
 /key.jks
 /android/key.properties
